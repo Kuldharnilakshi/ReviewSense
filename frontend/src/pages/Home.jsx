@@ -20,8 +20,8 @@ function Home() {
 
     try {
 
-    const response = await fetch(
-  `${import.meta.env.https://reviewsense-f9gm.onrender.com}/predict`
+const response = await fetch(
+  `${import.meta.env.VITE_API_URL}/predict`,
         {
           method: "POST",
 
