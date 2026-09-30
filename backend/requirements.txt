@@ -5,3 +5,11 @@ numpy
 scikit-learn
 nltk
 joblib
+Flask
+flask-cors
+pandas
+numpy
+scikit-learn
+nltk
+joblib
+gunicorn
